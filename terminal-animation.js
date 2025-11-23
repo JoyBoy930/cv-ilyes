@@ -24,8 +24,8 @@
 
   const config = {
     typeSpeed: 38,     // vitesse d’écriture (ms par caractère)
-    startDelay: 400,   // délai avant la première ligne
-    betweenLines: 500, // délai avant la sortie
+    startDelay: 38,   // délai avant la première ligne
+    betweenLines: 38, // délai avant la sortie
     loop: true        // true pour relancer en boucle
   };
 
