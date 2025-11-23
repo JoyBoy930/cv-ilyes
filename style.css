@@ -271,4 +271,36 @@ body{
 main, .content { position: relative; z-index: 5; }
 .side { z-index: 10; } /* si tu as une sidebar */
 
+/* Sidebar compacte par défaut */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60px; /* largeur réduite */
+  background-color: #0d1117;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  z-index: 1000;
+}
+
+/* Sidebar développée au survol */
+.sidebar:hover {
+  width: 220px; /* largeur développée */
+}
+
+/* Liste */
+.sidebar ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.sidebar li {
+  color: #fff;
+  padding: 10px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+
 
